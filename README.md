@@ -24,7 +24,7 @@ python3 md5cracker.py -H '$1$salt$hashvalue' -w rockyou.txt
 
 📥 Sample Cisco Hash Format
 
-username admin password 5 $1$DfGh$yfsr1kkaksJXflfdTnsdL/
+username admin password 5 $1$salt$hashvalue
 
 📂 Download rockyou.txt Wordlist
 
