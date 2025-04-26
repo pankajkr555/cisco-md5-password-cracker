@@ -18,6 +18,8 @@ A Python script to crack Cisco Type 5 MD5-CRYPT password hashes using a wordlist
 ```bash
 pip install passlib
 
+Downlaod the rockyou.txt: https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt&ved=2ahUKEwiple3qiPWMAxVeTmwGHa7xO7wQFnoECAkQAQ&usg=AOvVaw3snAERl1mU6Ccr4WFEazBd
+
 🚀 Usage
 
 python3 md5cracker.py -H '$1$salt$hashvalue' -w rockyou.txt
