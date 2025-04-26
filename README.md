@@ -26,6 +26,23 @@ python3 md5cracker.py -H '$1$salt$hashvalue' -w rockyou.txt
 
 username admin password 5 $1$DfGh$yfsr1kkaksJXflfdTnsdL/
 
+📂 Download rockyou.txt Wordlist
+
+The famous rockyou.txt wordlist contains millions of passwords and is useful for password cracking tasks.
+
+🔗 Download from GitHub
+👉 https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+
+📦 After downloading:
+
+mv rockyou.txt /your/path/here/
+
+Or use:
+
+wget https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+
+Make sure your Python script and wordlist file are in the same folder.
+
 🎯 Output
 
 Match after 2633 tries -> 'admin123'
